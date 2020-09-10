@@ -1,0 +1,71 @@
+<!DOCTYPE httml>
+<html lange="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>COMERCIAL LATINOAMERICANA C.A.</title>
+        <link rel="stylesheet" type="text/css" href=".\css\estiloc.css">
+       
+    </head>
+ 
+    <body>
+    <div id="valcont"> 
+          <header>
+              <img src="http://www.acl.com.co/assets/images/logo-acl-latam.png" >
+              <h1>COMERCIAL LATINOAMERICANA C.A.</h1>
+              <h2>Una Solucion comercial</h2>
+              <h3>Sabemos a quien Compra</h3>
+      
+          </header>
+     
+          
+          <nav>         
+            <a href="index.html">Inicio</a> 
+            <a href="cliente.html">Clientes</a> 
+            <a href="Contacto.html">Contacto</a> 
+            <a href="Galeria-fotos.html">Galeria de fotos</a> 
+        
+          </nav>
+    </div>
+
+   <section id="contsec"> 
+     
+    <form action="" class="form_Reg";>
+
+       <h1 class="form_tit">Contacto</h1>
+       
+       <input name="gerente" id="gerente" type="text"  class="form_inp">
+       <label for="" class="form_lab">Gerente</label><br> 
+       <input name="cliente" id="cliente" type="text"  class="form_inp">
+       <label for="" class="form_lab">Cliente</label><br> 
+         <!-- Seleccciona cliente de los diferentes paises -->
+            <select name="pais" class="form_inp">
+             <option value="Arg">Argentina</option>
+             <option value="BO">Bolivia</option>
+             <option value="BR">Brasil</option>
+             <option value="CA">Canadá</option>
+             <option value="CL">Chile</option>+
+         </select>
+       <!--  <label for="" class="form_lab">Paises</label> -->
+         <br>
+       <input name="telefono" id="telefono" type="text"  class="form_inp">
+       <label for="" class="form_lab">Telefono</label><br> 
+       <input name="email" id="email" type="text" class="form_inp">
+       <label for="" class="form_lab">Email</label><br> 
+       <input name="comentario"id="comentario" type="text" class="form_inp">
+       <label for="" class="form_lab">Comentario</label><br> 
+       
+       <!-- Envia datos del formulario -->
+   <!--    <input type="submit" class="form_env" > -->
+      <input type="submit" class="form_env" onclick="return validar()">
+      <!-- <input type="reset" value="Borrar datos" class="registro-inp"> --> 
+   
+      </form>
+    
+
+      <!-- Ejecuta el scrip de js -->
+      <script src="js/script1.js"></script> 
+   </section> 
+
+  </body>
+   
+</html>

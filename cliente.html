@@ -1,0 +1,71 @@
+ <!DOCTYPE httml>
+<html lange="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>COMERCIAL LATINOAMERICANA C.A.</title>
+        <link rel="stylesheet" type="text/css" href=".\css\estilocte.css">
+       
+    </head>
+
+  <body>
+    <div id="valcont"> 
+          <header>
+              <img src="http://www.acl.com.co/assets/images/logo-acl-latam.png" >
+              <h1>COMERCIAL LATINOAMERICANA C.A.</h1>
+              <h2>Una Solucion comercial</h2>
+              <h3>Sabemos a quien Compra</h3>
+      
+          </header>
+     
+          
+          <nav>         
+            <a href="index.html">Inicio</a> 
+            <a href="cliente.html">Clientes</a> 
+            <a href="Contacto.html">Contacto</a> 
+            <a href="Galeria-fotos.html">Galeria de fotos</a> 
+        
+          </nav>
+    </div>
+
+   <section id="contsec"> 
+     
+    <form action="" class="cli_Reg";>
+       <h1 class="cli_tit">Registrar Cliente</h1>
+       <div class="contenedor-inp">
+          <!--      Seleccciona cliente de los diferentes paises --> 
+          <select name="Cliente" placeholder="Clientes" class="cli_inp">            
+            <option values="Cleansui">Cleansui</option>
+            <option values="Cisne Negro Inversiones S.A.S. Bogota">Cisne Negro</option>
+            <option values="Verbatim">Verbatim</option>
+            <option values="Tecnologia y Soluciones">Tecnologia y Soluciones</option>
+            <option values="UrbanLigt">Urbanligt</option>
+            <option values="Anuwat">Anuwat</option>
+            <option values="Ecospace">Ecospace</option>
+            <option values="Nae">Nae</option>                           
+          </select> 
+     <!--  <label for="" class="form_lab">Paises</label> -->
+        <input  type="text" id="social" name="social" placeholder="Razon_Social" class="cli_inp">
+        <input  type="text"  id="domicilio" name="domicilio" placeholder="Domicilio" class="cli_inp">
+        <input name="fing" id="fing" type="date" placeholder="Fecha Ingreso" class="cli_inp">
+        <input name="edoProv" id="edoProv" type="text" placeholder="Edo_Provincia" class="cli_inp">          
+        <input name="codPost" id="codPost" type="text" placeholder="Cod_Postal" class="cli_inp">
+        <input name="repGte" id="repGte" type="text" placeholder="Rep_Gerente" class="cli_inp" >
+        <input name="email" id="email" type="email" placeholder="Correo" class="cli_inp">
+        <input name="nroReg" id="nroReg" type="text" placeholder="nro_Registro" class="cli_inp">
+        <input name="telefono" id="telefono" type="text"  placeholder="Telefono" class="cli_inp">
+        <input name="comentario" id="comentario" type="text"  placeholder="Comentario" class="cli_inpu">
+            
+         <!--    <input type="submit" class="form_env" > -->
+        <input type="submit" class="cli_env" value="Enviar "onclick="return validarCli()">
+        <!-- <input type="reset" value="Borrar datos" class="registro-inp"> --> 
+      </div>
+      </form>
+    
+
+      <!-- Ejecuta el scrip de js -->
+      <script src="js/script2.js"></script> 
+   </section> 
+
+  </body>
+   
+</html>
