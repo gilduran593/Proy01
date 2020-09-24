@@ -1,0 +1,236 @@
+/*Estilo de Marquetacion_3*/
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: lightblue;
+    color:  green;
+}
+header {
+    height: 78x; 
+    width: 38%;
+    padding: 12px;
+    margin:  0 auto;
+    background-color: DarkTurquoise;
+    text-align: center;
+    float: center;
+ }
+img{
+    height: 40px;
+    width: 55px;
+}
+h1,h2,h3 {
+    font-size: 15px;
+}
+#valind {
+    padding:14px; 
+    margin: 0 auto;
+ /*   height: 200px; */
+    width: 68%;
+}
+   
+nav {
+    height: 12px; 
+    width: 38%;
+    padding: 12px; 
+  /*  margin: 5px auto; */
+    margin: 10px auto;
+    background-color: #ffffff;
+    text-align:center;
+    float: center;
+ }
+section { 
+    padding: 8px; 
+    margin: 10px auto; 
+    background-color: SteelBlue;
+    border: 1px solid blue;
+    height: 330px; 
+    width: 88%;     
+    float: center;
+} 
+#secind {
+    padding: 14px; 
+    margin: 0 auto; 
+    height: 350px; 
+    width: 78%;
+ /*   border: 1px solid blue; */
+}
+#art1 {
+
+    padding: 10px 1%;
+    margin:10px 1%; 
+    background-color:#32CD32;
+    width:55%; 
+    float: left; 
+    border: 1px dotted blue;
+}
+aside {
+    padding:10px 1%; 
+    margin:10px 1%; 
+    background-color:PaleTurquoise;
+    width:35%; 
+    float:right; 
+    border: 1px dotted yellow;
+}
+#art2 {
+    
+    padding: 10px 1%;
+    margin:10px 1%; 
+    background-color:#66CDAA;
+    width:55%; 
+    float: left; 
+    border: 1px dotted blue;
+}
+#art3 {
+    
+    padding: 10px 1%;
+    margin:10px 1%; 
+    background-color:#7FFFD4;
+    width:55%; 
+    float: left; 
+    border: 1px dotted blue;
+}
+#art4 {
+    
+    padding: 14px;
+    margin:10px 1%; 
+    background-color:#40E0D0;
+    width:55%; 
+    float: left; 
+    border: 1px dotted blue;
+}
+#valcte {
+    padding:10px 1%; 
+    margin: 0 auto; 
+ /*   border: 1px solid blue; */
+    width:68%;
+   
+    
+
+}
+#seccli {
+    padding: 10px; 
+    margin: 0 auto; 
+   /* height: 300px; */
+    width: 68%;
+ /*  border: 1px solid blue; */ 
+}
+#cte {
+    padding: 10px 1%;
+     margin: 0 auto;
+     background-color:#40E0D0; 
+     color: black;
+     border: 1px solid blue;
+     height:250px;
+     width: 68%;
+  /*   overflow: auto; */
+     float: center;
+
+}
+
+/*#valcont {
+    padding: 14px; 
+    margin: 0 auto;
+    height: 200px; 
+    width: 68%;
+}
+#cont {
+    border-radius: rgba(0,0,0,0.3);
+    padding:12px; 
+    margin: 0 auto;
+    height: 200px; 
+    width: 68%;
+}*/
+/*#contsec {
+    padding: 10px 1%;
+    margin: 0 auto;
+     overflow:auto; 
+    background-color:#D3D3D3;  
+    color: black;
+    border-radius: 1px solid rgba(0, 0, 0, 0.7);
+    width: 400px;
+    max-width: 100%;
+    height: 400px; 
+    float: center;
+}*/
+.form_reg {
+    width: 300px;
+    max-width:100%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px 1px rgba(20, 84, 114, 0.89);
+    position: relative;
+}
+.form_tit {
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0,0,0,0.7) ;
+}
+.form_inp, .form_lab, .form_env {
+    display: block;
+    width: 100%;
+    font-size: 0.9em;
+    
+}
+.form_inp {
+    padding: 5px;
+    background: rgba(163, 29, 96, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+.form_lab {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -18px;
+    z-index: -20;
+}
+he,na,se,fo {
+    width: 45%;
+    height: 500px;
+    padding: 10px 1%;
+    background-color: #98FB98;
+    margin: 10px 1%;
+    border: 1px solid blue;
+    text-align: center;
+    float: center;
+    
+} 
+he,na,fo {
+    text-align: center;
+}
+se {
+    width: 75%;
+    
+    float: center;
+    margin-top: 1px;
+    border: 1px solid blueviolet
+}
+table {
+    text-align: center;
+    border: 1 solid black;
+    width: 100%; 
+    height: 45px;
+    background-color: RosyBrown; 
+    padding: 15px; 
+    border-spacing: 6px;
+    border-collapse: separate; } 
+#imagen1 {
+    background-color: SandyBrown; 
+   
+ } 
+#imagen2 {
+    background-color: Goldenrod;    
+ } 
+#imagen3 {
+    background-color: DarkGoldenrod;    
+ } 
+#imagen4 {
+    background-color: Peru;    
+ } 
+   
+footer{ 
+    clear:both; border: 3px double #DA70D6
+}
+
